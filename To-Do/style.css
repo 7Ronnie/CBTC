@@ -6,11 +6,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: hsl(198, 1%, 29%);
+    color: #494a4b;
     font-family: "Architects Daughter", cursive;
     text-align: center;
     font-size: 130%;
   }
+  
   
   .container {
     width: 100%;
@@ -77,4 +78,24 @@ body {
     position: relative;
     padding: 0.5rem;
   }
-  
+
+  li span {
+    right: 0;
+    margin: 0px 15px;
+    cursor: pointer;
+    position: absolute;
+    color: red;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 15%;
+  }
+
+  li span:hover{
+    font-weight: bolder;
+    background: #edeef0;
+  }
+
+  ul li.checked {
+    text-decoration: line-through;
+    color: #928e8e;
+  }
